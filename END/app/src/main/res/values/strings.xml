@@ -23,4 +23,9 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
 
+    <string name="action_logout">Salir</string>
+    <string name="action_planning">Plan</string>
+    <string name="menu_historial">Historico</string>
+    <string name="menu_profiler">Perfil</string>
+
 </resources>

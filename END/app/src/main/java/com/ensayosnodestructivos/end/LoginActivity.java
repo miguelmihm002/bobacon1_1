@@ -41,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
 
         session = new SessionHandler(getApplicationContext());
         if (session.isLoggedIn()) {
+            //Load menu Miguel gggggggg
             loadMenu();
         }
 

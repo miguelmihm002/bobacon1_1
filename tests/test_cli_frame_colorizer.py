@@ -9,8 +9,8 @@ from bobacon1_1.download import conditional_download
 def before_all() -> None:
 	conditional_download('.assets/examples',
 	[
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/source.jpg',
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/target-240p.mp4'
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/source.jpg',
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/target-240p.mp4'
 	])
 	subprocess.run([ 'ffmpeg', '-i', '.assets/examples/target-240p.mp4', '-vframes', '1', '-vf', 'hue=s=0', '.assets/examples/target-240p-0sat.jpg' ])
 	subprocess.run([ 'ffmpeg', '-i', '.assets/examples/target-240p.mp4', '-vf', 'hue=s=0', '.assets/examples/target-240p-0sat.mp4' ])

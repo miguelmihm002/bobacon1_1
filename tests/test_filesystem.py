@@ -10,9 +10,9 @@ from bobacon1_1.filesystem import get_file_size, is_file, is_directory, is_audio
 def before_all() -> None:
 	conditional_download('.assets/examples',
 	[
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/source.jpg',
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/source.mp3',
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/target-240p.mp4'
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/source.jpg',
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/source.mp3',
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/target-240p.mp4'
 	])
 	shutil.copyfile('.assets/examples/source.jpg', '.assets/examples/söurce.jpg')
 

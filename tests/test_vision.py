@@ -9,9 +9,9 @@ from bobacon1_1.vision import detect_image_resolution, restrict_image_resolution
 def before_all() -> None:
 	conditional_download('.assets/examples',
 	[
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/source.jpg',
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/target-240p.mp4',
-		'https://github.com/miguelmihm002/bobacon/releases/download/models/target-1080p.mp4'
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/source.jpg',
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/target-240p.mp4',
+		'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/target-1080p.mp4'
 	])
 	subprocess.run([ 'ffmpeg', '-i', '.assets/examples/target-240p.mp4', '-vframes', '1', '.assets/examples/target-240p.jpg' ])
 	subprocess.run([ 'ffmpeg', '-i', '.assets/examples/target-1080p.mp4', '-vframes', '1', '.assets/examples/target-1080p.jpg' ])

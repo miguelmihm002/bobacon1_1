@@ -17,7 +17,7 @@ MODELS : ModelSet =\
 {
 	'voice_extractor':
 	{
-		'url': 'https://github.com/miguelmihm002/bobacon/releases/download/models/voice_extractor.onnx',
+		'url': 'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/voice_extractor.onnx',
 		'path': resolve_relative_path('../.assets/models/voice_extractor.onnx')
 	}
 }

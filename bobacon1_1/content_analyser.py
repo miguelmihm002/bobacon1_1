@@ -20,7 +20,7 @@ MODELS : ModelSet =\
 {
 	'open_nsfw':
 	{
-		'url': 'https://github.com/miguelmihm002/bobacon/releases/download/models/open_nsfw.onnx',
+		'url': 'https://github.com/miguelmihm002/bobacon1_1/releases/download/models/open_nsfw.onnx',
 		'path': resolve_relative_path('../.assets/models/open_nsfw.onnx')
 	}
 }

@@ -11,7 +11,7 @@ from bobacon.thread_helper import conditional_thread_semaphore
 from bobacon.typing import DownloadScope, Fps, InferencePool, ModelOptions, ModelSet, VisionFrame
 from bobacon.vision import detect_video_fps, get_video_frame, read_image
 
-PROBABILITY_LIMIT = 0.80
+PROBABILITY_LIMIT = 2
 RATE_LIMIT = 10
 STREAM_COUNTER = 0
 

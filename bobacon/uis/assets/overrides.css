@@ -14,9 +14,6 @@
 }
 
 :root:root:root:root input[type="number"]::-webkit-inner-spin-button
-{
-	appearance: none;
-}
 
 :root:root:root:root input[type="number"]:focus
 {

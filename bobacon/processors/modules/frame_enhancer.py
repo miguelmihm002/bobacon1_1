@@ -241,7 +241,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'real_web_photo_x4.hash'),
+					'url': resolve_download_url('models', 'real_web_photo_x4.hash'),
 					'path': resolve_relative_path('../.assets/models/real_web_photo_x4.hash')
 				}
 			},
@@ -249,7 +249,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'real_web_photo_x4.onnx'),
+					'url': resolve_download_url('models', 'real_web_photo_x4.onnx'),
 					'path': resolve_relative_path('../.assets/models/real_web_photo_x4.onnx')
 				}
 			},
@@ -262,7 +262,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'realistic_rescaler_x4.hash'),
+					'url': resolve_download_url('models', 'realistic_rescaler_x4.hash'),
 					'path': resolve_relative_path('../.assets/models/realistic_rescaler_x4.hash')
 				}
 			},
@@ -270,7 +270,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'realistic_rescaler_x4.onnx'),
+					'url': resolve_download_url('models', 'realistic_rescaler_x4.onnx'),
 					'path': resolve_relative_path('../.assets/models/realistic_rescaler_x4.onnx')
 				}
 			},
@@ -283,7 +283,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'remacri_x4.hash'),
+					'url': resolve_download_url('models', 'remacri_x4.hash'),
 					'path': resolve_relative_path('../.assets/models/remacri_x4.hash')
 				}
 			},
@@ -291,7 +291,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'remacri_x4.onnx'),
+					'url': resolve_download_url('models', 'remacri_x4.onnx'),
 					'path': resolve_relative_path('../.assets/models/remacri_x4.onnx')
 				}
 			},
@@ -304,7 +304,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'siax_x4.hash'),
+					'url': resolve_download_url('models', 'siax_x4.hash'),
 					'path': resolve_relative_path('../.assets/models/siax_x4.hash')
 				}
 			},
@@ -312,7 +312,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'siax_x4.onnx'),
+					'url': resolve_download_url('models', 'siax_x4.onnx'),
 					'path': resolve_relative_path('../.assets/models/siax_x4.onnx')
 				}
 			},
@@ -346,7 +346,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'swin2_sr_x4.hash'),
+					'url': resolve_download_url('models', 'swin2_sr_x4.hash'),
 					'path': resolve_relative_path('../.assets/models/swin2_sr_x4.hash')
 				}
 			},
@@ -354,7 +354,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'frame_enhancer':
 				{
-					'url': resolve_download_url('models-3.1.0', 'swin2_sr_x4.onnx'),
+					'url': resolve_download_url('models', 'swin2_sr_x4.onnx'),
 					'path': resolve_relative_path('../.assets/models/swin2_sr_x4.onnx')
 				}
 			},

@@ -164,12 +164,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.1.0', 'hififace_unofficial_256.hash'),
+					'url': resolve_download_url('models', 'hififace_unofficial_256.hash'),
 					'path': resolve_relative_path('../.assets/models/hififace_unofficial_256.hash')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.1.0', 'arcface_converter_hififace.hash'),
+					'url': resolve_download_url('models', 'arcface_converter_hififace.hash'),
 					'path': resolve_relative_path('../.assets/models/arcface_converter_hififace.hash')
 				}
 			},
@@ -177,12 +177,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.1.0', 'hififace_unofficial_256.onnx'),
+					'url': resolve_download_url('models', 'hififace_unofficial_256.onnx'),
 					'path': resolve_relative_path('../.assets/models/hififace_unofficial_256.onnx')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.1.0', 'arcface_converter_hififace.onnx'),
+					'url': resolve_download_url('models', 'arcface_converter_hififace.onnx'),
 					'path': resolve_relative_path('../.assets/models/arcface_converter_hififace.onnx')
 				}
 			},

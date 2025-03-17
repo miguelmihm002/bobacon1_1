@@ -23,7 +23,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_occluder':
 				{
-					'url': resolve_download_url('models-3.1.0', 'xseg_1.hash'),
+					'url': resolve_download_url('models', 'xseg_1.hash'),
 					'path': resolve_relative_path('../.assets/models/xseg_1.hash')
 				}
 			},
@@ -43,7 +43,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_occluder':
 				{
-					'url': resolve_download_url('models-3.1.0', 'xseg_2.hash'),
+					'url': resolve_download_url('models', 'xseg_2.hash'),
 					'path': resolve_relative_path('../.assets/models/xseg_2.hash')
 				}
 			},
@@ -63,7 +63,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_parser':
 				{
-					'url': resolve_download_url('models-3.1.0', 'bisenet_resnet_18.hash'),
+					'url': resolve_download_url('models', 'bisenet_resnet_18.hash'),
 					'path': resolve_relative_path('../.assets/models/bisenet_resnet_18.hash')
 				}
 			},

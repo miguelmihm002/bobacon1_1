@@ -58,12 +58,12 @@ download_provider_set : DownloadProviderSet =\
 	'github':
 	{
 		'url': 'https://github.com',
-		'path': '/miguelmihm002/bobacon1_1/releases/tag/{base_name}/{file_name}'
+		'path': '/miguelmihm002/bobacon1_1/releases/download/{base_name}/{file_name}'
 	},
 	'huggingface':
 	{
 		'url': 'https://github.com',
-		'path': '/miguelmihm002/bobacon1_1/releases/tag/{base_name}/{file_name}'
+		'path': '/miguelmihm002/bobacon1_1/releases/download/{base_name}/{file_name}'
 	}
 }
 download_providers : List[DownloadProvider] = list(download_provider_set.keys())
